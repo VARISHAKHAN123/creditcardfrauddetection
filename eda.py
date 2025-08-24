@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-# Dataset ka path (ZIP ke andar creditcard.csv pada hai)
+# Dataset ka path (ZIP ke andar creditcard.csv  hai)
 csv_path = Path("C:\internproject\CreditCard_Fraud_Detection_Trends\dataset\creditcard.csv.zip")
 
 print(f"[INFO] Loading dataset: {csv_path}")
@@ -36,3 +36,4 @@ plt.savefig("../reports/amount_distribution.png", dpi=150)
 plt.close()
 
 print("[OK] EDA plots saved in reports folder")
+
